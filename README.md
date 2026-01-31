@@ -26,11 +26,20 @@ All data is stored in **JSON files**, so information is persistent between progr
 ---
 
 ## 🛠️ Technologies Used
-- Python 3  
-- JSON module (data storage)  
-- `os` module (file handling)  
-- Basic error handling (`try` / `except`)  
-
+- **Object-Oriented Programming (OOP)**:  
+  Used classes and objects for modular and reusable code design.  
+  - `Library` class manages books and users  
+  - `User` class handles borrowing/returning books  
+  - `Book`, `Novel`, `Magazine` classes represent different book types  
+- **Inheritance**:  
+  `Novel` and `Magazine` inherit from `Book`, adding `genre` and `issue` attributes  
+- **JSON Data Handling**:  
+  Persistent storage for books and users using JSON files (`library.json`, `users.json`, `books.json`)  
+- **Error Handling**:  
+  Basic try/except blocks for user input and file operations  
+- **Modular Design**:  
+  Separate files for Library system, User, Book, and helper functions
+ 
 ---
 
 ## 📁 Project Structure
