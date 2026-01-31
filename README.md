@@ -67,12 +67,12 @@ project/
 
 - On startup, a **login screen** is shown.  
 - The user can **log in** or **create a new account**.  
-- **Menu options:**
-  1. List all books  
-  2. Borrow a book  
-  3. Return a book  
-  4. Show my borrowed books  
-  5. Save and exit  
+- ## 📋 Menu Options
+   1. List all books  
+   2. Borrow a book  
+   3. Return a book  
+   4. Show my borrowed books  
+   5. Save and exit 
 - On exit, all data is **saved to a JSON file**.  
 - On the next run, the system **loads the saved state** and continues.
 
