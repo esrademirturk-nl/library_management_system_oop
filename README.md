@@ -34,6 +34,7 @@ All data is stored in **JSON files**, so information is persistent between progr
 ---
 
 ## 📁 Project Structure
+```text
 project/
 │
 ├── data/
@@ -48,15 +49,31 @@ project/
 ├── utils/
 │   └── helpers.py         # Menu helper functions
 └── main.py                # Main program (CLI)
-
+```
 ---
-
 ## ▶️ How to Run
 
-1. Make sure **Python 3** is installed.  
-2. Run the project:
+1. Make sure **Python 3** is installed.
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/esrademirturk-nl/library_management_system_oop.git
 
-```bash
-python main.py
+3. Run the project:
+   ```bash
+   python main.py
+
+---
+## 📋 Program Flow
+
+- On startup, a **login screen** is shown.  
+- The user can **log in** or **create a new account**.  
+- **Menu options:**
+  1. List all books  
+  2. Borrow a book  
+  3. Return a book  
+  4. Show my borrowed books  
+  5. Save and exit  
+- On exit, all data is **saved to a JSON file**.  
+- On the next run, the system **loads the saved state** and continues.
 
 
