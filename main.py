@@ -10,8 +10,6 @@ while(True):
         if(choice=="1"):
             username= input("Your Username = ")
             password = input("Your password = ")
-            username= "bob"
-            password ="abcd"
             current_user = library.login(username,password)
             if not current_user:
                 raise Exception("Invalid credentials.")  
